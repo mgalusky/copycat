@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #main {
@@ -47,7 +48,7 @@ body {
 
 .col-50 h2 {
   display: inline-block;
-  margin: 0px 60px;
+  margin: 0px 55px;
 }
 
 .col-50 .container {
