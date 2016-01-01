@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+}
+
+#main {
+  padding: 0px 75px;
+}
+
 .primary-text{
   color:#47a0ce;
 }
@@ -6,4 +14,94 @@
 }
 .secondary-text{
   color:white;
+}
+
+#header {
+  width: 100%;
+  padding: 20px 30px;
+  overflow: auto;
+}
+
+#header h1 {
+  float: left;
+}
+
+.logo {
+  float: left;
+  margin: 0px 12px;
+}
+
+#logout {
+  float: right;
+  margin: 23px 100px;
+  background-color: white;
+  padding: 10px 30px;
+  border-radius: 7px;
+}
+
+.col-50 {
+  float: left;
+  width: 50%;
+  margin: 30px 12px;
+}
+
+.col-50 h2 {
+  display: inline-block;
+  margin: 0px 60px;
+}
+
+.col-50 .container {
+  padding: 15px 50px;
+}
+
+.retweet {
+  border-radius: 7px;
+  float: right;
+  padding: 5px 18px;
+  margin-top: 23px;
+}
+
+.col-20{
+  float: left;
+  width: 20%;
+  margin: 30px 12px;
+}
+
+.col-20 .container {
+  text-align: center;
+}
+
+#profile-photo {
+  border: 1px solid #36454f;
+  padding: 0px 28px;
+  margin-top: 20px;
+}
+
+.container {
+  border: 1px solid #36454f;
+  padding: 12px;
+  margin-top: 20px;
+}
+
+.container img {
+  width: 45px;
+  height: 4 5px;
+}
+
+#footer {
+  width: 100%;
+  overflow: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+#footer img {
+  width: 5%;
+  height: 5%;
+}
+
+#footer li {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0px 15px;
 }
